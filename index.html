@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Swiper</title>
+  </head>
+
+  <body>
+    <!-- Swiper -->
+    <h2><a href="https://swiperjs.com/" target="_blank">Swiper</a></h2>
+
+    <div id="swiper-container">
+      <div>
+        <!-- Slider main container -->
+        <!-- 複数のSwiperを識別するため、 classに swiper-1 を設定-->
+        <div class="swiper swiper-1">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">Slide 1</div>
+            <div class="swiper-slide">Slide 2</div>
+            <div class="swiper-slide">Slide 3</div>
+            <div class="swiper-slide">Slide 4</div>
+          </div>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+
+          <!-- If we need scrollbar -->
+          <!-- <div class="swiper-scrollbar swiper-scrollbar-1"></div> -->
+        </div>
+        <!-- タイトル表示用 -->
+        <div id="swiper-title" class="swiper-title"></div>
+      </div>
+
+      <div>
+        <!-- Slider main container -->
+        <!-- 複数のSwiperを識別するため、 classに swiper-2 を設定-->
+        <div class="swiper swiper-2">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <div>
+                <img src="/img/pose_pien_uruuru_man.png" alt="" />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div>
+                <img src="/img/pose_dance_ukareru_woman.png" alt="" />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div>
+                <img src="/img/pose_koshi_nukeru_kowai_woman.png" alt="" />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div>
+                <img src="/img/pose_kuyashii_man.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+
+          <!-- If we need scrollbar -->
+          <div class="swiper-scrollbar"></div>
+        </div>
+        <!-- タイトル表示用 -->
+        <div id="swiper-title-2" class="swiper-title"></div>
+      </div>
+    </div>
+
+    <!-- <script type="module" src="/src/main.js"></script>
+
+    <form id="basic_form">
+      <input id="basic_name" name="name" />
+      <input id="basic_email" name="email" />
+      <input id="basic_password" name="password" />
+      <input id="basic_age" name="age" />
+      <input id="basic_address" name="address" />
+      <button type="submit">送信</button>
+    </form> -->
+
+    <title>フォーム</title>
+  </head>
+  <body>
+    <form id="basic_form" novalidate>
+      <div>
+        <label>
+          <span>名前</span>
+          <div>
+            <input id="basic_name" type="text" name="name" placeholder="名前を入力してください。" />
+          </div>
+        </label>
+      </div>
+      <div>
+        <label>
+          <span>メールアドレス</span>
+          <div>
+            <input id="basic_email" type="text" name="email" placeholder="メールアドレスを入力してください。" />
+          </div>
+        </label>
+      </div>
+      <div>
+        <label>
+          <span>パスワード</span>
+          <div>
+            <input id="basic_password" type="text" name="password" placeholder="パスワードを入力してください。" />
+          </div>
+        </label>
+      </div>
+      <div>
+        <label>
+          <span>年齢</span>
+          <div>
+            <input id="basic_age" type="text" name="age" placeholder="年齢を入力してください。" />
+          </div>
+        </label>
+      </div>
+      <div>
+        <label>
+          <span>住所</span>
+          <div>
+            <input id="basic_address" type="text" name="address" placeholder="住所を入力してください。" />
+          </div>
+        </label>
+      </div>
+      <button type="submit">送信</button>
+    </form>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
+  </body>
+</html>
